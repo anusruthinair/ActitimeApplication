@@ -90,12 +90,8 @@ public class BaseClass {
 		
 			
   }*/
-  @AfterMethod(alwaysRun=true)
-  public void logout() 
-   {
-	  LogoutLocators lt=new LogoutLocators(driver);
-	  lt.logoutApp();
-   }
+  
+ 
   @AfterClass(alwaysRun=true)
   public void closeBrowser() 
   {
